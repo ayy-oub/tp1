@@ -1,0 +1,100 @@
+   .profiledit {
+    color: black;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 6px;
+    border-radius: 10px;
+    position: absolute;
+    top: 90%;
+    right: 5%;
+  }
+  .profiledit:hover {
+    cursor: pointer;
+    color: black;
+  }
+  /*--------infobox-------*/
+.profileform{
+    position: relative;
+    top: 20%;
+}
+.infobox {
+position: absolute;
+top: 60%;
+left: 20%;
+transform: translate(-50%,-50%);
+width: 400px;
+padding: 40px;
+background-color: #212121 ;
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.5);
+border-radius: 10px;
+opacity: 1;
+height: 520px;
+}
+.infobox .inputbox {
+position: relative;
+color: #fff;
+} 
+.infobox .inputbox input {
+width: 100%;
+padding: 10px 0 ;
+font-size: 16px;
+color: #fff;
+letter-spacing: 1px;
+margin-bottom: 30px;
+border:none;
+border-bottom: 1px solid #fff;
+outline: none;  
+background: transparent;
+
+}
+.infobox .inputbox label {
+position: absolute;
+top: -18px;
+left: 0;
+padding: 10px 0;
+font-size: 16px;
+color:#00FFFF;
+pointer-events: none;
+transition: .5s;
+opacity: 1;
+
+}
+.infobox .inputbox input:focus ~ label,
+.infobox .inputbox input:valid ~ label
+{
+top: -18px;
+left: 0;
+color: #00FFFF;
+font-size: 12px;
+}
+#content{
+    width: 15%;
+    position: absolute;
+    top: -20%;
+    left: 25%;  
+    opacity: 1;  
+   }
+   .addimage {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+   }
+   
+   #img_div{
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 5%;
+    object-fit: cover;
+   }
+   #img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+   }
+.profilimg{
+  border-radius: 50%;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+   }
